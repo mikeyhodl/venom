@@ -101,7 +101,7 @@
     "webpack-cli": "^5.0.1"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.44.0",
     "@wppconnect/wa-js": "^2.18.3",
     "atob": "^2.1.2",
