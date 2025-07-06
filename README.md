@@ -1,81 +1,55 @@
-# 🚀 Venom by VYNECT™
+# 🚨 VENOM IS NOW PART OF ERA CONNECT™ BY VYNECT™
 
-**Venom** is a modern, open-source JavaScript library for **safe, ethical automation and testing on WhatsApp**.  
-Designed for developers and QA teams, Venom empowers you to:
+Hello everyone,
 
-- ✅ Automate WhatsApp conversations in controlled environments  
-- ✅ Simulate customer interactions  
-- ✅ Send and receive media for automated validation  
-- ✅ Build prototypes and integrate with business tools
-
-> ⚠️ **Important:** Venom is strictly intended for **development and testing purposes only**.  
-It must be used in full compliance with **WhatsApp's Terms of Service**.
+We are excited to announce that **Venom** is now officially part of the new communication ecosystem: **ERA CONNECT™**, powered and maintained by **VYNECT™**.
 
 ---
 
-## 💡 Key Features
+## ❗ Important Information
 
-- Full automation of message sending and receiving
-- Support for text, images, videos, audio, and files
-- AI-driven sentence recognition (optional)
-- Modular and flexible architecture for custom solutions
+As of this announcement, **Venom will no longer continue as an open-source project**.
 
----
-
-## 🛠 Installation
-
-```bash
-npm install venom-bot
-```
+Instead, Venom will move to a **freemium** model:
+- ✅ The **free version** will still be available with usage limits.
+- 🔒 For **advanced features, multiple sessions, and commercial use**, users will need to upgrade to **ERA CONNECT PRO** (paid license).
 
 ---
 
-## 🚀 Quick Start Example
+## 🚀 Why this change?
 
-```javascript
-const venom = require('venom-bot');
+Over the years, Venom has become one of the most used tools in the market for WhatsApp automation. However, the **open-source model has shown limitations**:
 
-venom
-  .create({
-    session: 'vynect-session',
-    multidevice: true // Enable for multi-device support
-  })
-  .then((client) => start(client))
-  .catch((error) => console.error(error));
+- ❌ Lack of consistent updates and maintenance  
+- ❌ Security risks with uncontrolled code copies  
+- ❌ No official support or stability guarantees
 
-function start(client) {
-  client.onMessage(async (message) => {
-    if (message.body.toLowerCase() === 'hi') {
-      await client.sendText(message.from, 'Hello! This is an automated response powered by Venom.');
-    }
+With the creation of **ERA CONNECT**, we are starting a **new era** focused on:
 
-    if (message.body.toLowerCase() === 'image') {
-      await client.sendImage(
-        message.from,
-        'https://via.placeholder.com/150',
-        'image',
-        'Here is an example image.'
-      );
-    }
-  });
-}
-```
+- ✅ Greater *stability and security*
+- ✅ Continuous development with *professional support*
+- ✅ A solid, scalable and sustainable platform
 
 ---
 
-## 📄 License
+## 🔗 What happens now?
 
-Venom is **open-source** under the **MIT License**.
+- Venom users can continue to use the **free version** with limited features.
+- For those who need **unlimited sessions, advanced resources, or commercial use**, the **ERA CONNECT PRO** license will be available.
 
----
-
-## 🌐 About VYNECT™
-
-**VYNECT™** builds next-generation automation and digital solutions focused on **speed, connectivity, and innovation**.
-
-Learn more: [vynect.com](https://vynect.com)
+All future development and updates will happen under the **ERA CONNECT™** brand by **VYNECT™**.
 
 ---
 
-🚀 **A new version of Venom is coming soon!**  
-📘 **Official documentation will be available soon at:** [vynect.com/venom](https://vynect.com/venom)
+## ⚡ Summary
+
+- Venom is now **ERA CONNECT™ Freemium**.  
+- No more open-source model.  
+- Free access will remain, but with usage limits.  
+- ERA CONNECT PRO (paid) will offer premium features, stability, and full support.
+
+---
+
+Thank you to everyone who contributed and used Venom over the years. We are proud of this community, and we look forward to welcoming you to this **new era of communication** with **ERA CONNECT™**.
+
+**VYNECT™ — Welcome to the new ERA.**
